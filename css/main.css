@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*************************
+GENERAL
+*************************/
+#main {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	font-family: 'Arimo', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*************************
+NAVIGATION TAB
+*************************/
+nav {
+	float: right;
+	text-align: center;
+	padding: 10px 0;
+	z-index: 10;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	color: black;
+	font-family: 'Arimo', sans-serif;
+	font-size: 1.25em;
+	padding: 15px 10px;
+}
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 2em;
+	font-weight: bold;
+	color: dimgray;
+}
+
+
+/*************************
+MAIN LOGO
+*************************/
+#main-logo {
+	border-radius: 20%;
+	position: relative;
+	z-index: 20;
+}
+
+
+/*************************
+FIRST IMAGE SECTION
+*************************/
+
+#post-a-job {
+	position: relative;
+	top: -90px;
+	z-index: 10;
+	background-image: url('../img/Jimage11.png');
+	width: 100%;
+	height: 455px;
+	background-position: center;
+}
+
+#post-job {
+	text-align: left;
+	position: relative;
+	top: 40px;
+	padding: 20px;
+}
+
+#post-job h1 {
+	z-index: 30;
+	font-weight: bold;
+	margin: 20px;
+	font-size: 2em;
+}
+#post-job p {
+	padding: 5px;
+}
+
+
+.send {
+	background: green;
+	color: white;
+	border-style: none;
+	margin: 20px;
+	padding: 5px 30px;
+	font-size: 1em;
+}
+#opaque1 {
+	margin-top: 20px;
+	height: 92px;
+	color: white;
+	background: rgba(0,0,0,.7);
+}
+
+#opaque1 h1 {
+	font-size: 1.7em;
+	padding: 10px;
+}
+
+#opaque1 li {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+
+
+/*************************
+HOW-TO SECTION
+*************************/
+#how-image {
+	margin: 30px 30px;
+}
+#how-image li{
+	margin: 30px 0;
+	padding: 10px 0;
+	display: inline-block;
+}
+#how-image p {
+	color: grey;
+	width: 200px;
+}
+
+
+
+
+/*************************
+JOB-SEEKERS SECTION
+*************************/
+
+#getting-started {
+	background-image: url('../img/Jimage2.jpg');
+	width: 100%;
+	height: 300px;
+	background-position: center;
+}
+#get-start {
+	height: 270px;
+	background-color: rgba(192,192,192,.8);
+	padding: 15px;
+}
+#get-start h1 {
+	font-weight: bold;
+	margin: 20px;
+	font-size: 2em;
+}
+
+
+/*************************
+SPONSORS SECTION
+*************************/
+
+.image-list {
+	color: dimgray;
+	margin-top: 30px;
+}
+
+.image-list ul {
+	list-style: none;
+}
+
+.image-list li {
+	background-color: white;
+	margin: 2.5%;
+	display: inline-block;
+}
+
+.sponsors-logos {
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	text-align: center;
+	padding: 40px 40px;
+}
+
+
+
+
+/*************************
+FOOTER
+*************************/
+footer {
+	height: 50px;
+	background: #383838;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0 0;
+	border-top: solid darkgreen;
+}
+
+footer ul {
+	list-style: none;
+	margin: 10px 70px;
+	padding: auto 0;
+}
+
+footer li {
+	float: left;
+	display: inline-block;
+}
+
+footer a {
+	font-size: 0.8em;
+	color: white;
+	padding: 15px 10px;
+}
+
