@@ -171,17 +171,16 @@ FIRST IMAGE SECTION
 /*************************
 HOW-TO SECTION
 *************************/
-#how-image {
-	margin: 30px 30px;
-}
-#how-image li{
-	margin: 30px 0;
-	padding: 10px 0;
-	display: inline-block;
-}
-#how-image p {
-	color: grey;
-	width: 200px;
+#how-to-image {
+	height: 253px;
+	width: 100%;
+	text-align: center;
+	background-image: url('../img/logo555.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: ;
+	
+	/*margin: 10px 10px;*/
 }
 
 
