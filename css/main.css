@@ -184,12 +184,12 @@ HOW-TO SECTION
 *************************/
 #how-to-image {
 	height: 253px;
-	width: 100%;
+	/*width: 120vw;*/
 	text-align: center;
 	background-image: url('../img/logo555.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: ;
+	background-size: 100vw;
 	
 	/*margin: 10px 10px;*/
 }
