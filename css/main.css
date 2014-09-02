@@ -61,6 +61,17 @@ GENERAL
 a {
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: underline;
+	color: green;
+}
+
+button:hover {
+	background-color: lightblue;
+}
+img:hover {
+	border-color: red;
+}
 
 
 /*************************
